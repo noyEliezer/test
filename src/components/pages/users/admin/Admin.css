@@ -1,0 +1,252 @@
+.btnPages {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnPrevious {
+  position: absolute;
+  left: 4px;
+  background-color: white;
+  color: #173f5f;
+  cursor: pointer;
+  border-radius: 20%;
+  bottom: 31.8rem;
+  z-index: 9999;
+}
+
+.list {
+  border-radius: 15px;
+  position: relative;
+}
+
+.list li:not(:last-child) {
+  border-bottom: 0.1px solid #173f5f;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.btnNext {
+  position: absolute;
+  left: 689px;
+  background-color: white;
+  color: #173f5f;
+  cursor: pointer;
+  border-radius: 20%;
+  bottom: 31.8rem;
+  z-index: 9999;
+}
+
+.btnPrevious:hover {
+  scale: 1.1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btnNext:hover {
+  scale: 1.1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.listContainer {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  max-width: 80%;
+}
+
+.listSubHeader {
+  cursor: pointer;
+}
+
+.listItemText {
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background-color: rgb(228, 228, 228);
+  transition: 0.3s all;
+}
+
+.searchUser {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 80%;
+  height: 2.4rem;
+  padding-left: 10px;
+  width: 28rem;
+}
+
+.userBox {
+  height: 84vh;
+  overflow: auto;
+}
+
+.users {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-color: lightblue;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+}
+
+.usersButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto !important;
+}
+
+.addIcon {
+  color: black;
+  scale: 2.2;
+  margin: 1.4rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  padding: 0.15rem;
+  margin-right: 1.5rem;
+}
+
+.editIconEditOff {
+  background-color: white;
+}
+
+.editIconEditOn {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.deleteIconRemovingOn {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.deleteIconRemovingOff {
+  background-color: white;
+}
+
+.editIconEditOn,
+.editIconEditOff {
+  color: black;
+  scale: 2.2;
+  margin: 1.4rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 0.3rem;
+  margin-right: 1.5rem;
+}
+
+.deleteIconRemovingOn,
+.deleteIconRemovingOff {
+  color: black;
+  scale: 2.2;
+  margin: 1.4rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 0.3rem;
+  margin-right: 1.5rem;
+}
+
+.userBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  border-radius: 15px;
+  padding: 0 2rem;
+  height: 6rem;
+  width: 6rem;
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.userBtn:hover {
+  background-color: rgb(228, 228, 228);
+  transition: 0.3s all;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+::selection {
+  background: none;
+}
+
+.MuiListItemText-root.MuiListItemText-multiline.listItemText.css-aqg2kt-MuiListItemText-root {
+  margin: 0;
+  padding: 6px 0;
+}
+
+@media (max-width: 900px) {
+  .userBtn {
+    margin: -0.85rem 0rem;
+  }
+
+  .users {
+    width: 80%;
+  }
+
+  .deleteIconRemovingOn,
+  .deleteIconRemovingOff,
+  .editIconEditOn,
+  .editIconEditOff,
+  .addIcon {
+    scale: 2;
+  }
+
+  .list {
+    width: 80%;
+  }
+
+  .btnPages {
+    position: relative;
+  }
+
+  .btnNext {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+    z-index: 1;
+  }
+
+  .btnPrevious {
+    top: -4.55rem;
+    z-index: 1;
+  }
+
+  label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.formControlLabel.css-14qnuji-MuiFormControlLabel-root {
+    margin-bottom: 0rem;
+  }
+
+  .MuiFormGroup-root.css-2n2v8f-MuiFormGroup-root {
+    flex-direction: COLUMN;
+  }
+
+  .listContainer {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    max-width: 90%;
+  }
+
+}

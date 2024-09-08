@@ -1,0 +1,84 @@
+.forgotBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forgotBox h3 {
+    width: 90%;
+}
+
+.forgotForm {
+    margin: 0 auto;
+    width: 50%;
+    margin: 2rem auto;
+    min-width: 20rem;
+}
+
+.forgotLabel {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+    padding: 0 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.forgotInput {
+    display: block;
+    min-width: 100%;
+    border: 1px solid #ccc;
+    height: 2rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.forgotResetButton {
+
+    background-color: #4caf50;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.forgotResetButton:hover {
+    background-color: #3d8b40;
+}
+
+.forgotError {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
+
+.forgotSuccess {
+    margin-top: 20px;
+    color: green;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+    .forgotBox {
+        width: 80%;
+    }
+
+    .forgotForm {
+        min-width: 15rem;
+    }
+}

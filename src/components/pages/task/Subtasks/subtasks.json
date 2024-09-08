@@ -1,0 +1,232 @@
+[
+    {
+        "father_task_id": 1,
+        "subtasks": [
+            {
+                "title": "Inspect door mechanism",
+                "paragraphs": [
+                    {
+                        "text": "Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue. Check the door sensor and motor to determine the cause of the issue.  ",
+                        "links_to_photos": [
+                            "https://st.depositphotos.com/1013470/4525/i/950/depositphotos_45254269-stock-photo-stainless-steel-elevator-doors-closing.jpg",
+                            "https://4.imimg.com/data4/KH/JC/MY-15076980/01-500x500.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "If the door sensor or motor is faulty, replace it with a new one.",
+                        "links_to_photos": [
+                            "https://st4.depositphotos.com/1000291/23118/i/1600/depositphotos_231188134-stock-photo-lift-machinist-repairing-elevator-in.jpg",
+                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUL68mPiCKX0gvgZMR1Q_VsDwMDbfRYhT3fA&usqp=CAU"
+                        ],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2023-03-20",
+                "date_updated": "2023-03-20",
+                "subtask_status": "Finished"
+            },
+            {
+                "title": "Adjust door closing speed",
+                "paragraphs": [
+                    {
+                        "text": "Check the speed settings on the door control panel.",
+                        "links_to_photos": [
+                            "https://live.staticflickr.com/2106/2588730933_37d9514f34_b.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Adjust the speed settings as needed to ensure smooth and safe operation.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2023-03-20",
+                "date_updated": "2023-03-20",
+                "subtask_status": "Finished"
+            }
+        ]
+    },
+    {
+        "father_task_id": 2,
+        "subtasks": [
+            {
+                "title": "Determine cause of stuck elevator",
+                "paragraphs": [
+                    {
+                        "text": "Check the elevator motor and cables to determine if they are causing the issue.",
+                        "links_to_photos": [
+                            "https://image.made-in-china.com/2f0j00YmRteFuBJEcG/Elevator-Lift-Electrical-Parts-Emergency-Power-for-Passenger-Lift.jpg",
+                            "https://i.redd.it/cr8lq5qtpq251.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "If the motor or cables are faulty, replace them with new ones.",
+                        "links_to_photos": [
+                            "data:image/jpeg;base64,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",
+                            "https://www.shutterstock.com/image-photo/steel-cable-sling-passenger-lift-600w-1146552638.jpg"
+                        ],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2023-03-20",
+                "date_updated": "2023-03-21",
+                "subtask_status": "Pending"
+            }
+        ]
+    },
+    {
+        "father_task_id": 3,
+        "subtasks": [
+            {
+                "title": "Check power supply",
+                "paragraphs": [
+                    {
+                        "text": "Check the power supply to the elevator to determine if there is an issue.",
+                        "links_to_photos": [
+                            "https://example.com/photos/power-supply.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "If there is an issue with the power supply, repair or replace it as needed.",
+                        "links_to_photos": [
+                            "https://example.com/photos/new-power-supply.jpg"
+                        ],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2023-03-21",
+                "date_updated": "2023-03-21",
+                "subtask_status": "In Progress"
+            }
+        ]
+    },
+    {
+        "father_task_id": 4,
+        "subtasks": [
+            {
+                "title": "Research",
+                "paragraphs": [
+                    {
+                        "text": "Start by gathering information on the topic from reliable sources.",
+                        "links_to_photos": [
+                            "https://example.com/photo1.jpg",
+                            "https://example.com/photo2.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Read articles, books, and academic papers to gain a deep understanding of the subject.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2022-02-01T10:30:00Z",
+                "date_updated": "2022-02-02T15:45:00Z",
+                "subtask_status": "Pending"
+            },
+            {
+                "title": "Outline",
+                "paragraphs": [
+                    {
+                        "text": "Create an outline to organize your thoughts and ideas.",
+                        "links_to_photos": [
+                            "https://example.com/photo3.jpg",
+                            "https://example.com/photo4.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Group related topics together and prioritize them based on importance.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2022-02-03T08:00:00Z",
+                "date_updated": "2022-02-04T11:20:00Z",
+                "subtask_status": "Finished"
+            },
+            {
+                "title": "Write",
+                "paragraphs": [
+                    {
+                        "text": "Use your outline to write the first draft of your paper.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Focus on expressing your ideas clearly and concisely.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2022-02-05T14:00:00Z",
+                "date_updated": "2022-02-06T16:30:00Z",
+                "subtask_status": "Finished"
+            }
+        ]
+    },
+    {
+        "father_task_id": 5,
+        "subtasks": [
+            {
+                "title": "Research materials",
+                "paragraphs": [
+                    {
+                        "text": "Search for relevant books and articles on the topic.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Review materials and take detailed notes.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Organize notes by topic and create an outline.",
+                        "links_to_photos": [
+                            "https://example.com/photo5.jpg",
+                            "https://example.com/photo6.jpg"
+                        ],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2023-04-05T08:00:00Z",
+                "date_updated": "2023-04-05T08:30:00Z",
+                "subtask_status": "Pending"
+            },
+            {
+                "title": "Write first draft",
+                "paragraphs": [
+                    {
+                        "text": "Use outline to write first draft of paper.",
+                        "links_to_photos": [
+                            "https://example.com/photo5.jpg",
+                            "https://example.com/photo6.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Take breaks as needed to avoid burnout.",
+                        "links_to_photos": [
+                            "https://example.com/photo5.jpg",
+                            "https://example.com/photo6.jpg"
+                        ],
+                        "maint_man_note": []
+                    },
+                    {
+                        "text": "Review and revise draft multiple times.",
+                        "links_to_photos": [],
+                        "maint_man_note": []
+                    }
+                ],
+                "date_created": "2023-04-05T09:00:00Z",
+                "date_updated": "2023-04-05T11:30:00Z",
+                "subtask_status": "Pending"
+            }
+        ]
+    }
+]

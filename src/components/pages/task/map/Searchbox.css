@@ -1,0 +1,31 @@
+.SearchBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchBoxBox {
+  height: 100%;
+}
+
+.SearchBoxContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+
+.mapSearch {
+  width: 40vw;
+}
+
+.mapSearchButton {
+  margin: 0 1rem !important;
+}
+
+.ListBox {
+  height: 100%;
+  width: 49.9vw;
+  overflow: auto;
+  overflow-x: hidden;
+}

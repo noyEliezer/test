@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  maintcontrol:
+    container_name: MaintControlServer
+    image: maintcontrol
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
+
+  db:
+    container_name: MaintControlDB
+    image: 'postgres:latest'
+    restart: always
+    environment:
+      DATABASE_HOST: 127.0.0.1
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Password1
+      POSTGRES_DB: MaintControlDB
+    ports:
+      - '5433:5432'
+    volumes: 
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+
+  pgadmin-compose:
+    container_name: pgAdmin
+    image: dpage/pgadmin4
+    environment: 
+      PGADMIN_DEFAULT_EMAIL: "maintcontrol@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "Password1"
+      PGADMIN_ENABLE_CONSOLE_LOGGING: "False"
+    ports: 
+      - "16543:80"
+    depends_on: 
+      - db     
+
+volumes:
+  db:
+    driver: local

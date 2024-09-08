@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": 1,
+    "product_serial_number": "WJL719",
+    "product_type": "Elevator",
+    "problem": "The door won't close properly, causing delays and possible safety hazards.",
+    "status": "Finished",
+    "location": {
+      "lat": 52.505,
+      "lon": -0.19
+    },
+    "date_created": "2023-03-20",
+    "date_updated": "2023-03-20"
+  },
+  {
+    "task_id": 2,
+    "product_serial_number": "R9X845",
+    "product_type": "Elevator",
+    "problem": "The elevator is stuck between floors, making it unusable and preventing access to floors above and below. The elevator is stuck between floors, making it unusable and preventing access to floors above and below. The elevator is stuck between floors, making it unusable and preventing access to floors above and below.",
+    "status": "Pending",
+    "location": {
+      "lat": 52.505,
+      "lon": -0.28
+    },
+    "date_created": "2023-03-20",
+    "date_updated": "2023-03-21"
+  },
+  {
+    "task_id": 3,
+    "product_serial_number": "C2M301",
+    "product_type": "Elevator",
+    "problem": "The elevator has no power, making it unusable and preventing access to floors above and below.",
+    "status": "Pending",
+    "location": {
+      "lat": 52.805,
+      "lon": -0.29
+    },
+    "date_created": "2023-03-21",
+    "date_updated": "2023-03-21"
+  },
+  {
+    "task_id": 4,
+    "product_serial_number": "WJL719",
+    "product_type": "Elevator",
+    "problem": "Replace faulty door sensor",
+    "status": "Cancelled",
+    "location": {
+      "lat": 52.605,
+      "lon": -0.17
+    },
+    "date_created": "2023-03-23",
+    "date_updated": "2023-03-23"
+  },
+  {
+    "task_id": 5,
+    "product_serial_number": "R9X845",
+    "product_type": "Elevator",
+    "problem": "Replace burnt-out motor",
+    "status": "Pending",
+    "location": {
+      "lat": 52.405,
+      "lon": -0.29
+    },
+    "date_created": "2023-03-23",
+    "date_updated": "2023-03-25"
+  },
+  {
+    "task_id": 6,
+    "product_serial_number": "C2M301",
+    "product_type": "Elevator",
+    "problem": "Replace broken control panel",
+    "status": "In Progress",
+    "location": {
+      "lat": 52.385,
+      "lon": -0.19
+    },
+    "date_created": "2023-03-24",
+    "date_updated": "2023-03-24"
+  },
+  {
+    "task_id": 7,
+    "product_serial_number": "WJL719",
+    "product_type": "Elevator",
+    "problem": "Inspect and repair brake system",
+    "status": "Pending",
+    "location": {
+      "lat": 52.505,
+      "lon": -0.198
+    },
+    "date_created": "2023-03-26",
+    "date_updated": "2023-03-26"
+  },
+  {
+    "task_id": 8,
+    "product_serial_number": "R9X845",
+    "product_type": "Elevator",
+    "problem": "Replace damaged elevator cable",
+    "status": "Pending",
+    "location": {
+      "lat": 52.5059,
+      "lon": -0.192
+    },
+    "date_created": "2023-03-26",
+    "date_updated": "2023-03-26"
+  },
+  {
+    "task_id": 9,
+    "product_serial_number": "C2M301",
+    "product_type": "Elevator",
+    "problem": "Replace broken door roller",
+    "status": "In Progress",
+    "location": {
+      "lat": 52.525,
+      "lon": -0.19
+    },
+    "date_created": "2023-03-28",
+    "date_updated": "2023-03-28"
+  },
+  {
+    "task_id": 10,
+    "product_serial_number": "WJL719",
+    "product_type": "Elevator",
+    "problem": "Clean and lubricate elevator gears",
+    "status": "Pending",
+    "location": {
+      "lat": 52.585,
+      "lon": -0.19
+    },
+    "date_created": "2023-03-31",
+    "date_updated": "2023-03-31"
+  }
+]

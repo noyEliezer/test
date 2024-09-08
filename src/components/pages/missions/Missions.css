@@ -1,0 +1,198 @@
+.MissionsTableBox {
+  width: 90%;
+  height: 70%;
+  min-width: 80rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto;
+  background-color: #add8e6;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Welcome {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #13162b;
+}
+
+.MissionsBtnsBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.MissionlistItemContent {
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+.MissionlistItem {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease-in-out;
+}
+
+.actionBtns {
+  margin: 0 1.5rem;
+  gap: 1rem;
+  display: flex;
+}
+
+.UrgencyHigh {
+  color: red !important;
+}
+
+.UrgencyMed {
+  color: orange !important;
+}
+
+.UrgencyLow {
+  color: greenyellow !important;
+}
+
+.MissionsTable {
+  width: 100%;
+  height: 100%;
+  min-height: 10rem;
+  border-radius: 15px;
+  background-color: #173f5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  overflow: auto;
+}
+
+.Missions {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.missionDesc {
+  color: white;
+  text-align: start;
+  font-size: 1rem;
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 30rem;
+}
+
+.Missions li {
+  padding: 0.8rem;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.MissionlistItem.done {
+  opacity: 0.4;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.Missions li:last-child {
+  border-bottom: none;
+}
+
+.Missions li:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.MissionLabel {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+}
+
+.MissionCheckbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.missionTitle {
+  display: flex;
+  align-items: center;
+}
+
+.filtersBtns {
+  display: flex;
+  align-items: center;
+}
+
+.expansionArrow,
+.expansionArrowUp {
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+  color: white;
+  border: 1px solid #a6a6a642;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  border-radius: 50%;
+  min-height: 2rem;
+  min-width: 2rem;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.expansionArrow:hover,
+.expansionArrowUp:hover {
+  background-color: rgba(255, 255, 255, 0.194);
+  cursor: pointer;
+}
+
+.expansionArrowUp {
+  rotate: 180deg;
+}
+
+.MissionName {
+  padding-left: 2rem;
+  color: #fff;
+  min-width: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filters {
+  margin: 0 1.5rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.filterContent {
+  display: flex;
+  width: 8rem;
+  flex-direction: column;
+}
+
+.filterContentPastDays {
+  display: flex;
+  width: 4rem;
+  flex-direction: column;
+}
+
+.filterTitle {
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: 0.4rem;
+  text-decoration: underline;
+}
+
+.MissionContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.taskBtn {
+  margin-left: 2rem;
+}

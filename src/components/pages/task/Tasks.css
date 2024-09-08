@@ -1,0 +1,241 @@
+.taskPageBox {
+  display: flex;
+  height: calc(100% - 6rem);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.tasksList {
+  flex-basis: 50%;
+  height: 100%;
+  overflow: auto;
+  background-color: #f2f6fc;
+  padding: 0.5rem;
+  min-width: 30rem;
+  cursor: pointer;
+  color: white;
+}
+
+.tasksList .actionBtns {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  z-index: 10;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  background-color: #173f5f;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 7rem;
+}
+
+.taskItem:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.taskItem:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.taskItem:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.tasksList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #173f5f;
+  border-radius: 5px;
+}
+
+
+.taskItem .info {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.taskItem h3 {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.tasksSerialNumber {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.taskContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.taskItem .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.taskProductDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.taskItem .problem {
+  text-align: start;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  flex-direction: column;
+  max-width: 40rem;
+}
+
+.taskProblem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.taskProblemContent {
+  max-width: 30rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.taskProblemContent.open {
+  display: block;
+}
+
+.problemExpandArrow {
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+  color: white;
+  border: 1px solid #a6a6a642;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  border-radius: 50%;
+  min-height: 2rem;
+  min-width: 2rem;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.problemExpandArrow:hover,
+.problemExpandArrow:active {
+  background-color: #5187b3;
+}
+
+.taskTitle {
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: start;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.lastUpdated {
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fillTaskForm {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #8702d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2)
+}
+
+.fillTaskForm:hover {
+  background-color: #6801a0;
+}
+
+.taskItem .status {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.statusBall {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2), inset 0 2px 5px rgba(255, 255, 255, 0.619)
+}
+
+.taskCard {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mapsBox {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.noTasks {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.taskListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1070px) {
+  .taskPageBox {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .tasksList {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .tasksList .actionBtns {
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.task-container {
+  height: 88vh;
+  width: 100vw;
+  position: relative;
+}
+
+.floating-actions {
+  position: absolute !important;
+  bottom: 2vh !important;
+  right: 1vw !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.floating-button {
+  margin: 1vh 0vw !important;
+}

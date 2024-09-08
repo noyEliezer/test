@@ -1,0 +1,38 @@
+   .new-equipment-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70em;
+    height: 80vh;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .new-equipment-modal-form {
+    width: 30%;
+    position: relative;
+  }
+  
+  .new-equipment-modal-map {
+    width: 70%;
+  }
+  
+  .new-equipment-form-button {
+    position: absolute !important;
+    bottom: 1em;
+    right: 1em;
+    left: 1em;
+  }
+  
+  .new-equipment-form-body {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2em;
+  }
+  

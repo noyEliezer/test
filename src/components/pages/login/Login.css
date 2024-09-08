@@ -1,0 +1,123 @@
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm {
+    margin: 0 auto;
+    width: 50%;
+    margin: 2rem auto;
+    min-width: 20rem;
+}
+
+.loginLabel {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+    padding: 0 1rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.loginInput {
+    display: block;
+    min-width: 100%;
+    border: 1px solid #ccc;
+    height: 2rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.passContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.eye {
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.eyeOff {
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.loginError {
+    color: red;
+    font-weight: bold;
+}
+
+.loginButton {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgb(131, 131, 131);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+.loginButton:active {
+    animation: 0.05s clicked forwards ease-in-out;
+}
+
+@keyframes clicked {
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 0.90;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .loginBox {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .loginInput {
+        display: block;
+        min-width: 100%;
+        border: 1px solid #ccc;
+        height: 2rem;
+        margin: 0 auto;
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .loginForm {
+        width: 50%;
+        margin: 0rem auto;
+        min-width: 14rem;
+    }
+
+}

@@ -1,0 +1,324 @@
+.subtasksListBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.subtask-fill-form-container {
+    background: #173f5f;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    height: 49rem;
+}
+
+.subtask-fill-form-container .form-group {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    height: 40rem;
+    overflow: auto;
+    display: none;
+}
+
+.subtask-fill-form-container .form-group.active {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    height: 42rem;
+    overflow: auto;
+    display: block;
+    overflow-x: hidden;
+}
+
+.subtask-fill-form-container .form-group:last-child {
+    border-bottom: none
+}
+
+.subtaskTitleAndButton {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1rem;
+}
+
+.subtaskTitle {
+    width: 90%;
+}
+
+.subtask-fill-form-container .form-group ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.subtaskTitle {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.subtask-fill-form-container .form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.subtask-fill-form-container .form-group input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: white;
+}
+
+
+.subtask-fill-form-container .form-group textarea,
+.subtask-fill-form-container .form-group input[type="date"],
+.subtask-fill-form-container .form-group input[type="file"],
+.subtask-fill-form-container .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.subtask-fill-form-container .form-group input[type="file"] {
+    text-align-last: center;
+}
+
+.subtask-fill-form-container .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #fff;
+    caret-color: #fff;
+    text-align: start;
+}
+
+.subtask-fill-form-container .form-group select option {
+    background: #173f5f;
+}
+
+.subtask-fill-form-container .form-group textarea {
+    height: 8rem;
+}
+
+.subtask-fill-form-container .create-mission-btn {
+    background: #ffa600;
+    border: none;
+    padding: 0.8rem 2rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 1rem;
+}
+
+.subtask-fill-form-container .create-mission-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subtask-fill-form-container .taskButton {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: 1rem;
+}
+
+.subtask-fill-form-container .taskButton:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(169, 196, 215);
+}
+
+.addParagraphButton {
+    scale: 0.8;
+}
+
+.slick-slider {
+    max-width: 26rem;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+}
+
+.subtasksPhotosSlider {
+    position: relative;
+}
+
+.subtasksPhotos {
+    width: 25rem;
+    object-fit: contain;
+    margin: 0 auto;
+    height: 22rem;
+    cursor: pointer;
+}
+
+.subtasksPhotos:hover {
+    filter: brightness(0.7);
+}
+
+.subtasksPhotosSlider:focus-visible {
+    outline: none;
+}
+
+.subtaskTabBox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+}
+
+.subtaskTab {
+    width: clamp(1rem, 90%, 10rem);
+    padding: 0.1rem 0;
+    min-width: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background-color: #979797;
+    cursor: pointer;
+}
+
+.subtaskTab:hover {
+    background-color: #c7c7c7;
+}
+
+.subtaskTab.active {
+    background-color: #c7c7c7;
+}
+
+.subtaskTabFiller {
+    width: clamp(1rem, 90%, 10rem);
+    padding: 0.1rem 0;
+    min-width: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background-color: #979797;
+    cursor: pointer;
+}
+
+.removeImageButton {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, 0);
+    display: none;
+
+}
+
+.subtasksPhotosSlider:hover .removeImageButton {
+    display: block;
+}
+
+@media (max-width: 1119px) {
+
+    .tasksListBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .task-fill-form-container {
+        background: #173f5f;
+        padding: 2rem;
+        border-radius: 1rem;
+        width: 95%;
+        margin: 2rem 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        font-family: Arial, sans-serif;
+        height: 40rem;
+        margin-bottom: 0;
+    }
+
+    .editTasksBox {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .subtasksListBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .subtask-fill-form-container {
+        background: #173f5f;
+        padding: 1rem;
+        border-radius: 0 0 1rem 1rem;
+        width: 90%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        font-family: Arial, sans-serif;
+        height: 49rem;
+    }
+
+    .subtaskTitleAndButton {
+        display: flex;
+        gap: 0.2rem;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 1rem;
+    }
+
+
+
+    .subtask-fill-form-container .form-group.active {
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
+        height: 42rem;
+        overflow: auto;
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .subtasksPhotos {
+        width: 15rem;
+        object-fit: contain;
+        margin: 0 auto;
+        height: 22rem;
+        cursor: pointer;
+    }
+}

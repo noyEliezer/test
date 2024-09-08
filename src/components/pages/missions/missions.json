@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "title": "Fix elevators in HIT",
+        "city": "Holon",
+        "area": "Central Israel",
+        "description": "Replace frayed cables in the elevators to prevent accidents and improve safety.",
+        "created_date": "2022-01-01",
+        "status": "Unfinished",
+        "urgency": "Medium"
+    },
+    {
+        "id": 2,
+        "title": "Fix elevator doors",
+        "city": "Ashdod",
+        "area": "Southern Israel",
+        "description": "Repair and adjust elevator doors to ensure smooth and safe operation.",
+        "created_date": "2022-01-03",
+        "status": "Completed",
+        "urgency": "Low"
+    },
+    {
+        "id": 3,
+        "title": "Upgrade elevator control system",
+        "city": "Rishon Lezion",
+        "area": "Central Israel",
+        "description": "Upgrade the elevator control system to improve efficiency and reduce downtime.",
+        "created_date": "2022-01-03",
+        "status": "Unfinished",
+        "urgency": "High"
+    },
+    {
+        "id": 4,
+        "title": "Clean and lubricate elevator parts",
+        "city": "Rishon Lezion",
+        "area": "Central Israel",
+        "description": "Clean and lubricate elevator parts to prevent wear and tear and extend their lifespan.",
+        "created_date": "2022-01-04",
+        "status": "Unfinished",
+        "urgency": "Low"
+    },
+    {
+        "id": 5,
+        "title": "Install new elevator buttons",
+        "city": "Rishon Lezion",
+        "area": "Central Israel",
+        "description": "Install new elevator buttons with braille and audio features to improve accessibility for disabled students and staff.",
+        "created_date": "2022-01-05",
+        "status": "Completed",
+        "urgency": "Medium"
+    },
+    {
+        "id": 6,
+        "title": "Improve elevator lighting",
+        "city": "Afula",
+        "area": "Northern Israel",
+        "description": "Upgrade elevator lighting to improve visibility and enhance the overall user experience.",
+        "created_date": "2022-01-05",
+        "status": "Completed",
+        "urgency": "Low"
+    },
+    {
+        "id": 7,
+        "title": "Replace damaged elevator flooring",
+        "city": "Rehovot",
+        "area": "Central Israel",
+        "description": "Replace damaged elevator flooring to prevent trips and falls.",
+        "created_date": "2022-01-05",
+        "status": "Unfinished",
+        "urgency": "Low"
+    },
+    {
+        "id": 8,
+        "title": "Install emergency phone system in elevators",
+        "city": "Ashdod",
+        "area": "Southern Israel",
+        "description": "Install an emergency phone system in elevators for quick response in case of emergencies.",
+        "created_date": "2022-01-06",
+        "status": "Unfinished",
+        "urgency": "Medium"
+    },
+    {
+        "id": 9,
+        "title": "Conduct regular elevator inspections",
+        "city": "Ashdod",
+        "area": "Southern Israel",
+        "description": "Conduct regular elevator inspections to ensure compliance with safety regulations and identify issues before they become major problems.",
+        "created_date": "2022-01-06",
+        "status": "Completed",
+        "urgency": "Medium"
+    },
+    {
+        "id": 10,
+        "title": "Train elevator technicians",
+        "city": "Rehovot",
+        "area": "Central Israel",
+        "description": "Train elevator technicians to keep up-to-date with the latest technologies and maintenance practices.",
+        "created_date": "2022-01-06",
+        "status": "Unfinished",
+        "urgency": "High"
+    },
+    {
+        "id": 11,
+        "title": "Replace elevator cables",
+        "city": "Ashkelon",
+        "area": "Southern Israel",
+        "description": "Replace frayed cables in the elevators to prevent accidents and improve safety.",
+        "created_date": "2022-01-06",
+        "status": "Completed",
+        "urgency": "Low"
+    },
+    {
+        "id": 12,
+        "title": "Fix elevator doors",
+        "city": "Rehovot",
+        "area": "Central Israel",
+        "description": "Repair and adjust elevator doors to ensure smooth and safe operation.",
+        "created_date": "2022-01-06",
+        "status": "Unfinished",
+        "urgency": "Low"
+    },
+    {
+        "id": 13,
+        "title": "Upgrade elevator control system",
+        "city": "Tel-Aviv",
+        "area": "Central Israel",
+        "description": "Upgrade the elevator control system to improve efficiency and reduce downtime.",
+        "created_date": "2022-01-07",
+        "status": "Unfinished",
+        "urgency": "High"
+    },
+    {
+        "id": 14,
+        "title": "Clean and lubricate elevator parts",
+        "city": "Tel-Aviv",
+        "area": "Central Israel",
+        "description": "Clean and lubricate elevator parts to prevent wear and tear and extend their lifespan.",
+        "created_date": "2022-01-07",
+        "status": "Completed",
+        "urgency": "High"
+    },
+    {
+        "id": 15,
+        "title": "Install new elevator buttons",
+        "city": "Rishon Lezion",
+        "area": "Central Israel",
+        "description": "Install new elevator buttons with braille and audio features to improve accessibility for disabled students and staff.",
+        "created_date": "2022-01-07",
+        "status": "Completed",
+        "urgency": "Medium"
+    },
+    {
+        "id": 16,
+        "title": "Improve elevator lighting",
+        "city": "Metula",
+        "area": "Northern Israel",
+        "description": "Upgrade elevator lighting to improve visibility and enhance the overall user experience.",
+        "created_date": "2022-01-08",
+        "status": "Unfinished",
+        "urgency": "Medium"
+    },
+    {
+        "id": 17,
+        "title": "Replace damaged elevator flooring",
+        "city": "Tel-Aviv",
+        "area": "Central Israel",
+        "description": "Replace damaged elevator flooring to prevent trips and falls.",
+        "created_date": "2022-01-09",
+        "status": "Completed",
+        "urgency": "Medium"
+    },
+    {
+        "id": 18,
+        "title": "Install emergency phone system in elevators",
+        "city": "Rishon Lezion",
+        "area": "Central Israel",
+        "description": "Install an emergency phone system in elevators for quick response in case of emergencies.",
+        "created_date": "2022-01-10",
+        "status": "Unfinished",
+        "urgency": "High"
+    },
+    {
+        "id": 19,
+        "title": "Conduct regular elevator inspections",
+        "city": "Holon",
+        "area": "Central Israel",
+        "description": "Conduct regular elevator inspections to ensure compliance with safety regulations and identify issues before they become major problems.",
+        "created_date": "2022-01-11",
+        "status": "Unfinished",
+        "urgency": "Low"
+    },
+    {
+        "id": 20,
+        "title": "Train elevator technicians",
+        "city": "Holon",
+        "area": "Central Israel",
+        "description": "Train elevator technicians to keep up-to-date with the latest technologies and maintenance practices.",
+        "created_date": "2022-01-13",
+        "status": "Completed",
+        "urgency": "Medium"
+    }
+]
